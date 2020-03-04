@@ -29,7 +29,7 @@ function startApp() {
 
 
     function promptCustomer() {
-        var questions = [
+        inquirer.prompt([
             {
                 name: "productID",
                 type:"input",
@@ -39,10 +39,10 @@ function startApp() {
                 name: "productQuantity",
                 type:"input",
                 message: "Please enter the product quantity you would like to purchase."
-            }
-        ];
-
-        inquirer.prompt(questions)
+            },
+        
+        ])
+        
                 .then(function (response) {
                 var idRequest = response.productID;
                 var qRequest = response.productQuantity;
@@ -60,20 +60,20 @@ function startApp() {
             if (qNeeded <= res[0].stock_quantity) {
                 var costTotal = res[0].price * qNeeded;
                 console.log("Your in luck, item is in stock!");
-                console.log("Total cost for " + qNeeded + " " + res[0].product_name + "is" + costTotal + "!");
+                console.log("Total cost for " + ""+ qNeeded + " " + res[0].product_name +" "+ "is" + " " + costTotal + " ,"+ "Thank you!");
                 console.log("UPDATE products SET stock_quantity = stock_quantity - " + qNeeded + " Where item_id = " + productID);
                 connection.query("UPDATE products SET stock_quantity = stock_quantity - " + qNeeded + " Where item_id = " + productID);
 
             } else {
-                console.log("Sorry, insufficient amount of requested item.")
+                console.log("Sorry, insufficient amount in stock for requested item. Please try again.")
             };
-
             startApp();
+           
         });
                 
     };
     
-startApp();
+    startApp();
 
         
 
