@@ -4,4 +4,4 @@
 
 ### MySQL Database
 ### Displaying Bamazon Store
-![MySQL](Screen Shot 2020-03-03 at 7.12.03 PM)
+![MySql](https://user-images.githubusercontent.com/54917461/75842605-9fb9aa00-5d85-11ea-9e8f-67be5ef7009d.png)
