@@ -4,8 +4,7 @@
 
 ### MySQL Database
 ### Displaying Bamazon Store
-![MySql](https://user-images.githubusercontent.com/54917461/75842605-9fb9aa00-5d85-11ea-9e8f-67be5ef7009d.png)
-
-![MySql](https://user-images.githubusercontent.com/54917461/75842740-0dfe6c80-5d86-11ea-879d-c87fffcf4772.png)
-![Mysql](https://user-images.githubusercontent.com/54917461/75842804-3f773800-5d86-11ea-9c91-638d61dfd9e8.png)
-![Mysql](https://user-images.githubusercontent.com/54917461/75842815-4736dc80-5d86-11ea-8bc2-a51ccd34626b.png)
+![image](https://user-images.githubusercontent.com/54917461/76154970-41990980-609a-11ea-8cad-19ec988ff3b8.png)
+![image](https://user-images.githubusercontent.com/54917461/76154972-42ca3680-609a-11ea-9939-082f8f8ba8df.png)
+![image](https://user-images.githubusercontent.com/54917461/76154973-452c9080-609a-11ea-9429-588452236403.png)
+![image](https://user-images.githubusercontent.com/54917461/76154974-478eea80-609a-11ea-8f89-b086cc37d7de.png)

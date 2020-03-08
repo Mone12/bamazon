@@ -61,7 +61,7 @@ function startApp() {
                 var costTotal = res[0].price * qNeeded;
                 console.log("Your in luck, item is in stock!");
                 console.log("Total cost for " + ""+ qNeeded + " " + res[0].product_name +" "+ "is" + " " + costTotal + " ,"+ "Thank you!");
-                console.log("UPDATE products SET stock_quantity = stock_quantity - " + qNeeded + " Where item_id = " + productID);
+                // console.log("UPDATE products SET stock_quantity = stock_quantity - " + qNeeded + " Where item_id = " + productID);
                 connection.query("UPDATE products SET stock_quantity = stock_quantity - " + qNeeded + " Where item_id = " + productID);
 
             } else {
